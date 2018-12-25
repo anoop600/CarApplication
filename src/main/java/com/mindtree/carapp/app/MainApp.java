@@ -17,7 +17,7 @@ public class MainApp {
 		try {
 			carSer.addCar(car);
 		} catch (ServiceException e) {
-			Syste.out.println(e.getMessage() + " : " + e.getCause());
+			System.out.println(e.getMessage() + " : " + e.getCause());
 		}
 	}
 
